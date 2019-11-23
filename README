@@ -1,14 +1,5 @@
-Implementacion: Mas o menos hecha
-
-Bonus points:
--version de produccion no me acaba de funcionar (
-    he dejado el json apuntando a webpack.config por
-    el momento para poder probar
-)
-
--Variables de entorno: El config esta en modo funcion.
-No se si me falta algo.
-
--Medida de cada libreria: todo bien excepto por la linea
-103 del webpack.config. Cuando intento añadir la comprobacion
-"isProd..." el proyecto me da error.
+Bundling con Webpack, logo, console.logs en typeScrypt, hola mundo
+estilado en Scss y renderizado con react. versiones base, dev y prod.
+Variables de entorno logueadas en typeScrypt e importadas en react.
+Analyzer hecho en perf.webpack.config.js
+Parcel en otro repo

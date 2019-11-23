@@ -1,13 +1,13 @@
 {
-  "name": "myWebpack2",
+  "name": "myWebpackExercises",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "rimraf dist && webpack --mode development",
-    "build:prod": "set NODE_ENV=production&&webpack --progress -p",
-    "build:analyze": "set NODE_ENV=production&&set BUNDLE_ANALYZE=true&&webpack --progress -p"
+    "start": "webpack-dev-server --mode development --open --config dev.webpack.config.js",
+    "build:dev": "rimraf dist && webpack --config dev.webpack.config.js",
+    "build:prod": "rimraf dist && webpack --config prod.webpack.config.js",
+    "build:perf": "rimraf dist && webpack --config perf.webpack.config.js"
   },
   "keywords": [],
   "author": "",
